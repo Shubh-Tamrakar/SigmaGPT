@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import ProfileCard from "./ProfileCard.jsx";
 import axios from "axios";
 
+
 export default function ChatWindow() {
   const {
     prompt,
