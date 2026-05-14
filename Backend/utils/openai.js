@@ -15,6 +15,7 @@ const getOpenAPIResponse = async(message) => {
             }]
         })
     }
+    
 
     try {
         const response = await fetch("https://api.chatanywhere.tech/v1/chat/completions", options);
