@@ -16,6 +16,7 @@ export default function Sidebar() {
     isCollapsed,
   } = useContext(MyContext);
 
+  
   const getAllThreads = async () => {
     const options = {
       method: 'GET',
