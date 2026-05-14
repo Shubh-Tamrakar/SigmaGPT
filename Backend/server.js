@@ -23,6 +23,7 @@ app.use("/api", chatRoutes);
 //     res.send(response);
 // });
 
+
 const connectDB = async() => {
     try {
         await mongoose.connect(process.env.MONGODB_URL);
