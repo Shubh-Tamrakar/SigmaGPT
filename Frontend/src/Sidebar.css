@@ -17,6 +17,7 @@
     overflow: visible; 
 }
 
+
 .sidebar.collapsed {
     width: 0;
     border-right: none;
