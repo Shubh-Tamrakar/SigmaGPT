@@ -10,6 +10,7 @@ const Login = ({ setIsAuthenticated }) => {
     password: "",
   });
 
+  
   const handleFormData = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }
