@@ -15,6 +15,7 @@ const Signin = ({setIsAuthenticated}) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     const options = {
