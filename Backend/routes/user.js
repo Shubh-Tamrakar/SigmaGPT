@@ -6,6 +6,7 @@ import 'dotenv/config';
 
 const router = express.Router();
 
+
 router.post("/signin", async (req, res) => {
     // 1. Destructure data from request body
     const { username, email, password } = req.body;
