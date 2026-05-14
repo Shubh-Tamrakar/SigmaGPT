@@ -14,6 +14,7 @@ export default function Chat() {
       setLatestReply(null);
       return;
     }
+    
 
     //latestReply seperate => typing effect create
     if (!prevChats?.length) return;
