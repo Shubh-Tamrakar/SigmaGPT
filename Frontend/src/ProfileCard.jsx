@@ -8,6 +8,7 @@ const ProfileCard = ({ onClose }) => {
     email: "",
   });
 
+  
   // Define the fetch logic
   useEffect(() => {
   // Define it inside to satisfy the dependency array
